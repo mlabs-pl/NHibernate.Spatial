@@ -28,7 +28,7 @@
  */
 using System.Runtime.Serialization;
 using GeoAPI.Geometries;
-using GisSharpBlog.NetTopologySuite.Geometries;
+using NetTopologySuite.Geometries;
 
 namespace NHibernate.Spatial.MGeometries
 {

@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.IO;
 using GeoAPI.Geometries;
-using GisSharpBlog.NetTopologySuite.Geometries;
+using NetTopologySuite.Geometries;
 using NHibernate;
 using NHibernate.Criterion;
 using NHibernate.Spatial.Criterion;
@@ -164,7 +164,7 @@ namespace Tests.NHibernate.Spatial.NtsTestCases
 		{
 			if (geometry is ILinearRing)
 			{
-				return new Polygon((ILinearRing)geometry, null);
+				return new Polygon((ILinearRing)geometry, new GeometryFactory());	
 			}
 			return geometry;
 		}

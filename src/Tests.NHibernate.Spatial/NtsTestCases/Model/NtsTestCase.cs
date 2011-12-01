@@ -1,6 +1,6 @@
 using System;
 using GeoAPI.Geometries;
-using GisSharpBlog.NetTopologySuite.Geometries;
+using NetTopologySuite.Geometries;
 
 namespace Tests.NHibernate.Spatial.NtsTestCases.Model
 {

@@ -17,7 +17,7 @@
 
 using System;
 using GeoAPI.Geometries;
-using GisSharpBlog.NetTopologySuite.Geometries;
+using NetTopologySuite.Geometries;
 using NHibernate.Engine;
 using NHibernate.Criterion;
 using NHibernate.Persister.Entity;

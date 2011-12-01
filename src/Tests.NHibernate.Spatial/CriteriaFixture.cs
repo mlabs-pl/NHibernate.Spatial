@@ -1,8 +1,8 @@
 using System;
 using System.Collections;
 using System.Linq;
-using GisSharpBlog.NetTopologySuite.Geometries;
-using GisSharpBlog.NetTopologySuite.IO;
+using NetTopologySuite.Geometries;
+using NetTopologySuite.IO;
 using NHibernate;
 using NHibernate.Criterion;
 using NHibernate.Linq;

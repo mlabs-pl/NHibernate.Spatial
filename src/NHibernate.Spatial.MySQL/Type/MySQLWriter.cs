@@ -18,7 +18,7 @@
 using System;
 using System.IO;
 using GeoAPI.Geometries;
-using GisSharpBlog.NetTopologySuite.IO;
+using NetTopologySuite.IO;
 
 namespace NHibernate.Spatial.Type
 {

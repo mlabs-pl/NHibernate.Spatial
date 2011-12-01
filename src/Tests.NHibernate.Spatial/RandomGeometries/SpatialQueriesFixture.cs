@@ -608,7 +608,7 @@ namespace Tests.NHibernate.Spatial.RandomGeometries
 		private static bool IsApproximateCoincident(IGeometry g1, IGeometry g2, double tolerance)
 		{
 			IGeometry symdiff;
-			if (g1.Dimension < Dimensions.Surface && g2.Dimension < Dimensions.Surface)
+			if (g1.Dimension < Dimension.Surface && g2.Dimension < Dimension.Surface)
 			{
 				g1 = g1.Buffer(tolerance);
 				g2 = g2.Buffer(tolerance);

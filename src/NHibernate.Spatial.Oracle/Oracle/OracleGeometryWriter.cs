@@ -17,8 +17,8 @@
 
 using System;
 using GeoAPI.Geometries;
-using GisSharpBlog.NetTopologySuite.Algorithm;
-using GisSharpBlog.NetTopologySuite.Geometries;
+using NetTopologySuite.Algorithm;
+using NetTopologySuite.Geometries;
 using NHibernate.Spatial.MGeometries;
 
 namespace NHibernate.Spatial.Oracle

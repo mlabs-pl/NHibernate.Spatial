@@ -1,6 +1,6 @@
 using System;
 using GeoAPI.Geometries;
-using GisSharpBlog.NetTopologySuite.Geometries;
+using NetTopologySuite.Geometries;
 using NHibernate;
 using Tests.NHibernate.Spatial.RandomGeometries.Model;
 

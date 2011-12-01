@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using System.Data;
-using GisSharpBlog.NetTopologySuite.IO;
+using NetTopologySuite.IO;
 using log4net;
 using log4net.Config;
 using NHibernate;

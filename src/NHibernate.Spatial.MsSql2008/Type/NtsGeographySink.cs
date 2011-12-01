@@ -18,7 +18,7 @@
 using System;
 using System.Collections.Generic;
 using GeoAPI.Geometries;
-using GisSharpBlog.NetTopologySuite.Geometries;
+using NetTopologySuite.Geometries;
 using Microsoft.SqlServer.Types;
 
 namespace NHibernate.Spatial.Type
